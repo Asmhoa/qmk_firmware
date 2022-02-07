@@ -35,3 +35,11 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+## This is the version still working with dactyl manuform.
+1. clone
+2. cd qmk_firmware/
+3. ./bin/qmk docs
+4. make git-submodule
+5.  ./bin/qmk compile -kb handwired/dactyl_manuform/5x6 -km default
+6.  flash using toolbox
